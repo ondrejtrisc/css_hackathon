@@ -1,0 +1,38 @@
+// VARIABLES - Colors
+
+$primaryColor: #f8f9fa; // for HEADER
+
+$secondaryColor: #343a40; // for FOOTER
+
+$blue: #0099ff; // for FOOTER NAV text
+
+$grey: #ced4da;  // for FOOTER text
+
+$darkerGrey: #949494; // for MENU links
+
+// MAIN CSS
+
+.onCoffeePage {
+  color: black;
+}
+
+main {
+  width: 80vw;
+  margin: 2rem auto 0;
+  // background-color: gold;
+}
+
+.coffee-info {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.coffee-item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  img {
+    object-fit: contain;
+  }
+  
+}

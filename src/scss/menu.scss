@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0 0 20rem;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+.section-body {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.sweets {
+    margin-left: 5rem;
+}
+
+.block {
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+.block-body {
+    width: 20rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        padding-right: 3rem;
+    }
+
+    .prices {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+img {
+    margin-left: 10rem;
+}
+
+.machine {
+margin: 0 0 -50px 20rem;
+width: 55vw;
+z-index: 2;
+}
