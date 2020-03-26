@@ -1,62 +1,65 @@
 main {
-    display: flex;
-    flex-direction: column;
-    padding: 5rem 0 0 20rem;
+	display: flex;
+	flex-direction: column;
+	width: 55vw;
+	padding: 5rem 0 0 20vw;
 }
 
 section {
-    margin-bottom: 5rem;
+	margin-bottom: 5rem;
 }
 
 .section-body {
-    display: flex;
+	display: flex;
+	@media (max-width: 1100px) {
+		flex-direction: column;
+	}
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 5rem;
 }
 
 .row {
-    display: flex;
+	display: flex;
 }
 
 .sweets {
-    margin-left: 5rem;
+	margin-left: 5rem;
 }
 
 .block {
-    margin-top: 3rem;
-    margin-right: 5rem;
+	margin-top: 3rem;
+	margin-right: 5rem;
 }
 
 .block-body {
-    width: 20rem;
+	width: 20rem;
+	display: flex;
+	justify-content: space-between;
 
-    display: flex;
-    justify-content: space-between;
+	.items {
+		display: flex;
+		flex-direction: column;
+		padding-right: 3rem;
+	}
 
-    .items {
-        display: flex;
-        flex-direction: column;
-        padding-right: 3rem;
-    }
-
-    .prices {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
+	.prices {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
 }
 
 img {
-    margin-left: 10rem;
+	margin-left: 10vw;
 }
 
 .machine {
-margin: 0 0 -50px 20rem;
-width: 55vw;
-z-index: 2;
+	margin: 0 0 -50px 20vw;
+	width: 55vw;
+	z-index: 2;
 }
